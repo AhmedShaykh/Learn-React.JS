@@ -1,4 +1,4 @@
-# React Base App for Bootcamp 2020 Class 2 Onwards: Learning React
+# React Base App for Bootcamp 2020 Learning React.JS !
 
 We will create a React base app to start learning React
 
