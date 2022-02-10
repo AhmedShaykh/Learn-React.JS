@@ -1,13 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
+import Props from './Props';
+import UseState from './Hooks/UseState';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-      </header>
+    <div className='box'>
+      <Props techName='React.JS !' yearName='2020' />
+      <Props techName='Blockchain !' yearName='2021' />
+      <UseState />
     </div>
   );
 }

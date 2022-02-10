@@ -5,7 +5,7 @@ function Props(props) {
     return (
         <div>
             <h1>Learning {props.techName}</h1>
-            <h2>With Bootcamp {props.yearName}</h2>
+            <h2>With Pancloud Bootcamp {props.yearName}</h2>
         </div>
     );
 }
