@@ -5,7 +5,7 @@ function UseState() {
     let [count, setCount] = useState(1);
     return (
         <div>
-            <Message counter={count}/>
+            <Message counter={count} />
             <br />
             <button onClick={() => setCount(count + 1)}>Update Value</button>
             <br />

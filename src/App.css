@@ -1,13 +1,39 @@
+body{
+  background-color:lightgray;
+  padding: 0%;
+  margin: 0%;
+}
+
 .box {
   background-color: #131418;
-  height: 900px;
+  padding-bottom: 35px;
+  margin-bottom: 60px;
   color: rgb(255, 254, 254);
+  text-align: center;
+  font-size: 28px;
+}
+
+.heading{
+  font-size: 70px !important;
+}
+
+.dayLight {
+  background-color: #fffb11;
+  padding-bottom: 35px;
+  margin-bottom: 60px;
+  color: rgb(0, 0, 0);
   text-align: center;
   font-size: 28px;
 }
 
 button {
   font-size: 30px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.btn{
+  font-size: 42px;
   font-weight: 400;
   cursor: pointer;
 }
