@@ -28,12 +28,14 @@ body{
 
 button {
   font-size: 30px;
+  margin: 10;
   font-weight: 400;
   cursor: pointer;
 }
 
 .btn{
-  font-size: 42px;
+  margin: 10;
+  font-size: 40px;
   font-weight: 400;
   cursor: pointer;
 }
