@@ -1,6 +1,7 @@
-import React , {useState} from 'react';
+import React, { useState } from 'react';
 import Props from './Props';
 import UseState from './Hooks/UseState';
+import Events from './Hooks/Events';
 import './App.css';
 
 function App() {
@@ -12,6 +13,8 @@ function App() {
       <Props techName='React.JS !' yearName='2020' />
       <Props techName='Blockchain !' yearName='2021 To 2023' />
       <UseState />
+      <br />
+      <Events />
     </div>
   );
 }

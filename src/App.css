@@ -33,9 +33,19 @@ button {
   cursor: pointer;
 }
 
-.btn{
+.btn {
   margin: 10;
   font-size: 40px;
   font-weight: 400;
   cursor: pointer;
+}
+
+.handle {
+  background-color: #e68608;
+  padding-top: 18px;
+  padding-bottom: 20px;
+}
+
+.headHandle {
+  font-size: 60px;
 }
