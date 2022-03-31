@@ -7,16 +7,16 @@ function UseState() {
         <div>
             <Message counter={count} />
             <br />
-            <button onClick={() => setCount(count + 1)}>Update Value</button>
+            <button className="btn btn-secondary" onClick={() => setCount(count + 1)}>Update Value</button>
             <br />
             <br />
-            <button onClick={() => setCount(count - 1)}>Delete Value</button>
+            <button className="btn btn-secondary" onClick={() => setCount(count - 1)}>Delete Value</button>
             <br />
             <br />
-            <button onClick={() => setCount(count * 2)}>Double Value</button>
+            <button className="btn btn-secondary" onClick={() => setCount(count * 2)}>Double Value</button>
             <br />
             <br />
-            <button onClick={() => setCount(count / 2)}>Divide Value</button>
+            <button className="btn btn-secondary" onClick={() => setCount(count / 2)}>Divide Value</button>
         </div>
     );
 }

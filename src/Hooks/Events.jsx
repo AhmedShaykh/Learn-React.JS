@@ -12,7 +12,7 @@ const Events = () => {
         setWeather(newWeather);
     }
 
-    const backEvent = () => {
+    const backEvent = () => { 
         setBg(aqua);
         setWeather('Winter Time');
     }

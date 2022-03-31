@@ -6,7 +6,9 @@ body{
 
 .box {
   background-color: #131418;
-  padding-bottom: 35px;
+  padding-top: 20px;
+  margin-top: 40px;
+  padding-bottom: 40px;
   margin-bottom: 60px;
   color: rgb(255, 254, 254);
   text-align: center;
@@ -15,6 +17,8 @@ body{
 
 .heading{
   font-size: 70px !important;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 
 .dayLight {
@@ -23,29 +27,46 @@ body{
   margin-bottom: 60px;
   color: rgb(0, 0, 0);
   text-align: center;
-  font-size: 28px;
+  font-size: 25px;
 }
 
-button {
-  font-size: 30px;
+.btn-secondary {
+  font-size: 25px;
   margin: 10;
-  font-weight: 400;
   cursor: pointer;
 }
 
 .btn {
   margin: 10;
-  font-size: 40px;
-  font-weight: 400;
+  font-size: 25px;
   cursor: pointer;
 }
 
 .handle {
   background-color: #e68608;
-  padding-top: 18px;
-  padding-bottom: 20px;
+  padding-top: 25px;
+  padding-bottom: 28px;
 }
 
 .headHandle {
-  font-size: 60px;
+  font-size: 50px;
+}
+
+.form {
+  background-color: rgb(12, 155, 78);
+  padding: 30px;
+  margin: 26px;
+  text-align: left !important;
+}
+
+.btn-dark {
+  font-size: 19px;
+  cursor: pointer;
+}
+
+.space {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-top: 6px;
+  margin-bottom: 6px;
 }
