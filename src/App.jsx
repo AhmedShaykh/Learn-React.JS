@@ -8,7 +8,7 @@ import './App.css';
 function App() {
   let [isMorning, setMorning] = useState(true);
   return (
-    <div className={`box ${isMorning ? 'dayLight' : ``}`}>
+    <div className={`box ${isMorning ? 'dayLight' : ''}`}>
       <h1 className='heading'>Good {isMorning ? 'Morning' : 'Night'}</h1>
       <button className="btn btn-light" onClick={() => setMorning(!isMorning)}>Update Day</button>
       <br /><br />
@@ -19,7 +19,7 @@ function App() {
       <Events />
       <br />
       <div className="container">
-        <TextForm heading="Enter The Text To Analyze Below !"/>
+        <TextForm heading="Enter The Text To Analyze Below !" />
       </div>
     </div>
   );

@@ -1,20 +1,24 @@
 import React, { useState } from 'react'
 
 const Events = () => {
-    const aqua = '#00FFFF';
+    const aqua = '#4A64FF';
     const [bg, setBg] = useState(aqua);
-    const [weather, setWeather] = useState('Winter Time');
+    const [weather, setWeather] = useState('Click Me Its Too Cool!');
+    const [feel, setFeel] = useState('Yahoo! I Love Winters!');
 
     const handEvent = () => {
         let newBg = '#f06000';
         setBg(newBg);
-        let newWeather = 'Summer Time';
+        let newWeather = 'Double Click Me Its Too Hot!';
         setWeather(newWeather);
+        let newFeel = 'I Hate Hot Summer';
+        setFeel(newFeel);
     }
 
-    const backEvent = () => { 
+    const backEvent = () => {
         setBg(aqua);
-        setWeather('Winter Time');
+        setWeather('Click Me Its Too Cool!');
+        setFeel('Yahoo! I Love Winters');
     }
 
     return (
@@ -24,12 +28,12 @@ const Events = () => {
             }
         }>
             <h1 className='headHandle'>
-                Weather Changing With Handling Event's
+                {feel}
             </h1>
             <br />
             <button onClick={handEvent}
                 onDoubleClick={backEvent}
-                type="button" class="btn btn-primary">
+                type="button" class="btn-dark">
                 {weather}
             </button>
         </div>

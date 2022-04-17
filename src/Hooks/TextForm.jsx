@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 
 function TextForm(props) {
+
     const handleUpperClick = () => {
 
         let newText = text.toUpperCase();
@@ -12,6 +13,7 @@ function TextForm(props) {
     }
 
     const [text, setText] = useState('Enter Text Here !');
+
     return (
         <div className='form' >
             <h1>

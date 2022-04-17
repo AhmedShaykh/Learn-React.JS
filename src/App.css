@@ -1,5 +1,5 @@
-body{
-  background-color:lightgray;
+body {
+  background-color: lightgray;
   padding: 0%;
   margin: 0%;
 }
@@ -15,7 +15,7 @@ body{
   font-size: 28px;
 }
 
-.heading{
+.heading {
   font-size: 70px !important;
   padding-top: 8px;
   padding-bottom: 8px;
@@ -60,7 +60,7 @@ body{
 }
 
 .btn-dark {
-  font-size: 19px;
+  font-size: 25px;
   cursor: pointer;
 }
 
