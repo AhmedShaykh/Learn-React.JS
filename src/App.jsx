@@ -19,7 +19,7 @@ function App() {
       <Events />
       <br />
       <div className="container">
-        <TextForm heading="Enter The Text To Analyze Below !" />
+        <TextForm heading="Enter The Text To Analyze Below .." />
       </div>
     </div>
   );
