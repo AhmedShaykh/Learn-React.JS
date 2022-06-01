@@ -13,7 +13,7 @@ function App() {
       <button className="btn btn-light" onClick={() => setMorning(!isMorning)}>Update Day</button>
       <br /><br />
       <Props techName='Cloud Computing & AWS With Serverless!' yearName='2020' />
-      <Props techName='Blockchain !' yearName='2021 To 2023' />
+      <Props techName='Blockchain Development!' yearName='2021 To 2023' />
       <UseState />
       <br />
       <Events />
