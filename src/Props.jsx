@@ -5,7 +5,7 @@ function Props(props) {
     return (
         <div className='space'>
             <h1>Learning {props.techName}</h1>
-            <h2>With Pancloud Bootcamp {props.yearName}</h2>
+            <h2>With Pancloud Certified Unicorn Bootcamp {props.yearName}</h2>
         </div>
     );
 }
