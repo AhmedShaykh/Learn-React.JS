@@ -4,7 +4,7 @@ const Events = () => {
     const aqua = '#4A64FF';
     const [bg, setBg] = useState(aqua);
     const [weather, setWeather] = useState('Click Me Its Too Cool!');
-    const [feel, setFeel] = useState('Yahoo! I Love Winters!');
+    const [feel, setFeel] = useState('Yahoo! I Love Winters');
 
     const handEvent = () => {
         let newBg = '#f06000';
@@ -31,8 +31,8 @@ const Events = () => {
                 {feel}
             </h1>
             <br />
-            <button onClick={handEvent}
-                onDoubleClick={backEvent}
+            <button onClick={() => {handEvent(); backEvent()}}
+                // onDoubleClick={backEvent}
                 type="button" class="btn-dark">
                 {weather}
             </button>
