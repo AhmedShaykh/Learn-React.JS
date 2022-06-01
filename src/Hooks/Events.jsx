@@ -3,13 +3,13 @@ import React, { useState } from 'react'
 const Events = () => {
     const aqua = '#4A64FF';
     const [bg, setBg] = useState(aqua);
-    const [weather, setWeather] = useState('Click Me Its Too Cool!');
+    const [weather, setWeather] = useState('Its Too Cool Please Click Me!');
     const [feel, setFeel] = useState('Yahoo! I Love Winters');
 
     const handEvent = () => {
         let newBg = '#f06000';
         setBg(newBg);
-        let newWeather = 'Double Click Me Its Too Hot!';
+        let newWeather = 'Its Too Hot Please Double Click Me!';
         setWeather(newWeather);
         let newFeel = 'I Hate Hot Summer';
         setFeel(newFeel);
@@ -17,7 +17,7 @@ const Events = () => {
 
     const backEvent = () => {
         setBg(aqua);
-        setWeather('Click Me Its Too Cool!');
+        setWeather('Its Too Cool Please Click Me!');
         setFeel('Yahoo! I Love Winters');
     }
 
@@ -31,8 +31,8 @@ const Events = () => {
                 {feel}
             </h1>
             <br />
-            <button onClick={() => {handEvent(); backEvent()}}
-                // onDoubleClick={backEvent}
+            <button onClick={handEvent}
+                onDoubleClick={backEvent}
                 type="button" class="btn-dark">
                 {weather}
             </button>
