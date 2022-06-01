@@ -32,6 +32,10 @@ function TextForm(props) {
                 onClick={handleUpperClick}
                 class="btn btn-dark">Convert To Uppercase
             </button>
+            <button type="button"
+                onClick={handleLowerClick}
+                class="btn btn-dark">Convert To Lowercase
+            </button>
         </div>
     )
 }
