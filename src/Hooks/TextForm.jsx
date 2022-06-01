@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 
+const [text, setText] = useState('Enter Text Here!');
+
 function TextForm(props) {
 
     const handleUpperClick = () => {
@@ -11,8 +13,6 @@ function TextForm(props) {
     const handleOnChange = (e) => {
         setText(e.target.value)
     }
-
-    const [text, setText] = useState('Enter Text Here !');
 
     return (
         <div className='form' >
