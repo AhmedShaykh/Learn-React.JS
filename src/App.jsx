@@ -6,7 +6,7 @@ import TextForm from './Hooks/TextForm';
 import './App.css';
 
 function App() {
-  let [isMorning, setMorning] = useState(true);
+  let [isMorning, setMorning] = useState(false);
   return (
     <div className={`box ${isMorning ? 'dayLight' : ''}`}>
       <h1 className='heading'>Good {isMorning ? 'Morning' : 'Night'}</h1>
