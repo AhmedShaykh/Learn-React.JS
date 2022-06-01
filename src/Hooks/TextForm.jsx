@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
 
-const [text, setText] = useState('Enter Text Here!');
-
 function TextForm(props) {
 
     const handleUpperClick = () => {
@@ -10,9 +8,17 @@ function TextForm(props) {
         setText(newText)
     }
 
+    const handleLowerClick = () => {
+
+        let newText = text.toLowerCase();
+        setText(newText)
+    }
+
     const handleOnChange = (e) => {
         setText(e.target.value)
     }
+
+    const [text, setText] = useState('Enter Text Here!');
 
     return (
         <div className='form' >
@@ -24,7 +30,8 @@ function TextForm(props) {
             </div>
             <button type="button"
                 onClick={handleUpperClick}
-                class="btn btn-dark">Convert To Uppercase</button>
+                class="btn btn-dark">Convert To Uppercase
+            </button>
         </div>
     )
 }
